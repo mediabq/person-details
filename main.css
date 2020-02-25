@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  padding-top: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#names > div {
+  margin-bottom: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#names div > div {
+  padding: 5px;
+}
+
+#names button {
+  margin-bottom: 0;
+}
+
+.highlighted {
+  background-color: #fff2ac;
+  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+}
+
+.highlighted-green {
+  background-color: #c6ffac;
+  background-image: linear-gradient(to right, #80ff59 0%, #acffb0 100%);
+}
